@@ -254,6 +254,7 @@ def delete_place(category_id, place_id):
 
 # Login functions and handling
 
+@app.route('/')
 @app.route('/login')
 def show_login():
     """Login page"""
